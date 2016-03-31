@@ -1,0 +1,44 @@
+{
+  "name": "aspire",
+  "version": "1.0.0",
+  "description": "aspire common library",
+  "main": "aspire.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aspire"
+  ],
+  "author": "afe",
+  "license": "ISC",
+  "browser": {
+    "jquery2min": "./scripts/lib/jquery-2.2.2.min.js",
+    "jquery2pro": "./scripts/lib/jquery-2.2.2.js",
+    "jquery1min": "./scripts/lib/jquery-1.12.2.min.js",
+    "jquery1pro": "./scripts/lib/jquery-1.12.2.js"
+  },
+  "browserify": {
+    "transform": "browserify-shim"
+  },
+  "browserify-shim": {
+    "jquery2min": "jquery2min",
+    "jquery2pro": "jquery2pro",
+    "jquery1min": "jquery1min",
+    "jquery1pro": "jquery1pro"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "browserify": "^13.0.0",
+    "browserify-shim": "^3.8.12",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "jshint": "^2.9.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0"
+  }
+}

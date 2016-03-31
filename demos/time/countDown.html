@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../styles/Aspire.css">
+</head>
+<body>
+
+
+<input type="button" value="获取验证码" id="btn" />
+<span id="txt">点击上面的按钮获取验证码</span>
+
+
+<script src="../../scripts/Aspire.js"></script>
+<script>
+    $('#btn').click(function(){
+        Aspire.countdown(10,$(this),$('#txt'));
+    });
+</script>
+</body>
+</html>

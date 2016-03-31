@@ -1,0 +1,15 @@
+body{
+    padding: 20px;
+}
+#btn {
+    border: solid 1px #292929;
+    background: #9c0033;
+    border-radius: 10px;
+    padding:10px;
+    color:#fff;
+}
+
+#span{
+    margin-left:10px;
+    color:#333;
+}
